@@ -56,7 +56,108 @@ img{
     align-items: center;
     text-align: center;
 }
+@media screen and (max-width: 780px)
+{
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 5px solid black; */
+        /* background-color:#8cced9; */
+        background: linear-gradient(#8cced9,rgb(232, 243, 184));
+        width: 32%;
+        margin: 10% auto;
+        border-radius: 56px;
+        margin-bottom: 50px;
+     } 
+     
+     form button{
+        margin-top: 25px;
+        height: 30px;
+        width: 30%;
+        border: none;
+        border-radius: 10px;
+        background: #e3c6ae;
+    }
+    form button:hover{
+        margin-top: 25px;
+        height: 30px;
+        width: 30%;
+        border: none;
+        border-radius: 10px;
+        background: #e3c6ae2e;
+        cursor: pointer;
+    }
+}
 
+@media screen and (max-width: 570px)
+{
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 5px solid black; */
+        /* background-color:#8cced9; */
+        background: linear-gradient(#8cced9,rgb(232, 243, 184));
+        width: 53%;
+        margin: 10% auto;
+        border-radius: 56px;
+        margin-bottom: 50px;
+     } 
+     
+     form button{
+        margin-top: 25px;
+        height: 30px;
+        width: 30%;
+        border: none;
+        border-radius: 10px;
+        background: #e3c6ae;
+    }
+    form button:hover{
+        margin-top: 25px;
+        height: 30px;
+        width: 30%;
+        border: none;
+        border-radius: 10px;
+        background: #e3c6ae2e;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 380px)
+{
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 5px solid black; */
+        /* background-color:#8cced9; */
+        background: linear-gradient(#8cced9,rgb(232, 243, 184));
+        width: 77%;
+        margin: 10% auto;
+        border-radius: 56px;
+        margin-bottom: 50px;
+     } 
+     
+     form button{
+        margin-top: 25px;
+        height: 30px;
+        width: 30%;
+        border: none;
+        border-radius: 10px;
+        background: #e3c6ae;
+    }
+    form button:hover{
+        margin-top: 25px;
+        height: 30px;
+        width: 30%;
+        border: none;
+        border-radius: 10px;
+        background: #e3c6ae2e;
+        cursor: pointer;
+    }
+}
 
 
 
