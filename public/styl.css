@@ -1,0 +1,77 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat ;
+    background-size: 300% 1300%;
+    animation: onimation 20s ease infinite;
+}
+form{
+   text-align: center;
+}
+    
+form button{
+    margin-top: 25px;
+    height: 30px;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    background: #e3c6ae;
+}
+form button:hover{
+    margin-top: 25px;
+    height: 30px;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    background: #e3c6ae2e;
+    cursor: pointer;
+}
+h4{
+    text-align: center;
+}
+.box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* border: 5px solid black; */
+   /* background-color:#8cced9; */
+   background: linear-gradient(#8cced9,rgb(232, 243, 184));
+   width: 23%;
+   margin: 10% auto;
+   border-radius: 56px;
+   margin-bottom: 50px;
+}
+.weather-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 177px;
+    width: 165px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@keyframes onimation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

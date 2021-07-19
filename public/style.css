@@ -1,0 +1,71 @@
+body{
+    
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat ;
+    background-size: 300% 1300%;
+    animation: onimation 20s ease infinite;
+}
+h1{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 4rem;
+}
+form{
+    text-align: center;
+}
+form label{
+    font-family: 'Karla', sans-serif;
+    font-size: 2rem;
+}
+form input{
+    margin-top: 5%;
+    width: 102%;
+    height: 31px;
+    border: none;
+    border-radius: 5px;
+}
+form button{
+    margin-top: 25px;
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    background: #e3c6ae;
+}
+form button:hover{
+    margin-top: 25px;
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    background: #e3c6ae2e;
+    cursor: pointer;
+}
+
+::placeholder{
+    text-align: center;
+    opacity: 0.7;
+}
+.cont{
+    height: 300px;
+    margin:auto;
+    margin-top: 20px; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+}
+footer{
+    text-align: center;
+     font-family: 'Karla', sans-serif;
+}
+@keyframes onimation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
